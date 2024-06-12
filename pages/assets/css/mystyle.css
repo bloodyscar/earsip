@@ -1,0 +1,35 @@
+#myTable {
+  border-collapse: collapse;
+  /* Menggabungkan border sel menjadi satu */
+  border-spacing: 0;
+  /* Mengatur jarak antar border menjadi nol */
+}
+
+/* Menyembunyikan pagination tetapi mempertahankan Select entries */
+.dataTables_wrapper .dataTables_paginate {
+  display: none;
+}
+
+/* Mengatur lebar pada bagian "Select entries" */
+.dataTables_wrapper .dataTables_length {
+  width: auto;
+  /* Atur lebar sesuai kebutuhan */
+}
+
+/* Style Inputan */
+.box-input {
+  width: 100%;
+}
+
+#searchInput {
+  width: 360px;
+  float: right;
+  border: 1px solid #dfe3e7;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.box-input p {
+  margin-left: 40%;
+  margin-top: 1rem;
+}
